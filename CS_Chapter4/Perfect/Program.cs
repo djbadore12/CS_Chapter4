@@ -10,6 +10,12 @@ namespace Perfect
     {
         static void Main(string[] args)
         {
+            int even = 2;
+            for (int x = 0; x < 100; x++)
+            {
+                Console.WriteLine();
+            }
+
         }
     }
 }
