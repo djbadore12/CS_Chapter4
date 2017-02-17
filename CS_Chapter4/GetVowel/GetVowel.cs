@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GetVowel
 {
-    class Program
+    class GetVowel
     {
         static void Main(string[] args)
         {

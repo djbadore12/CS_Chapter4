@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MultiplicationTable
+namespace Perfect
 {
-    class Program
+    class NotSoPerfect
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Fuck This");
+
         }
     }
 }
