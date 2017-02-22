@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sum
 {
-    class Program
+    class Sum
     {
         static void Main(string[] args)
         {
@@ -15,10 +15,11 @@ namespace Sum
             int num = Convert.ToInt32(Console.ReadLine());
             while (num != 999)
             {
+                sum = sum + num;
                 Console.Write("enter a number :");
                 num = Convert.ToInt32(Console.ReadLine());
 
-                sum = sum + num;
+                
 
             }
             Console.WriteLine(sum);

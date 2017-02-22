@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Sum50
 {
-    class Program
+    class Sum50
     {
         static void Main(string[] args)
         {
-        }
+            int sum = 0;
+            for (int i = 1; i <= 50; i++)
+            {
+                sum = sum + i;
+
+                Console.WriteLine(sum);
+            }
+
+        } 
     }
 }
